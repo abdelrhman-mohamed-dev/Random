@@ -1,0 +1,47 @@
+.container {
+}
+.top {
+  display: flex;
+}
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.infoTitle {
+  font-size: 40px;
+}
+.infoDesc {
+  font-size: 18px;
+  font-weight: 300;
+}
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.authorImg {
+  object-fit: cover;
+  border-radius: 50%;
+}
+.name {
+}
+.imgContainer {
+  flex: 1;
+  position: relative;
+  width: 400px;
+  height: 300px;
+}
+.img {
+  object-fit: cover;
+}
+.bottom {
+  margin-top: 50px;
+}
+.text {
+  font-size: 20px;
+  font-weight: 300;
+  color: #999;
+  text-align: justify;
+}
